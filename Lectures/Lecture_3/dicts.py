@@ -16,6 +16,7 @@ print(f"After adding snake: {animals}\n")
 del animals["snake"]
 dog = animals.pop("dog")
 print(f"After removing snake and dog: {animals}\n")
+print(dog)
 
 # Iterating over a dict using keys
 for k in animals.keys():

@@ -1,4 +1,4 @@
-# Declaring a list
+# Declaring a tuple
 tuple_ints = (3, 4, 5)
 
 # Accessing a value
@@ -12,12 +12,12 @@ except Exception as e:
     print(f"The error is {e}")
     
 
-# Iterating over a list using length
+# Iterating over a tuple using length
 x = len(tuple_ints)
 for i in range(x):
     print(f"The value at index {i} is {tuple_ints[i]}")
 
-# Iterating over a list using for-each
+# Iterating over a tuple using for-each
 for num in tuple_ints:
     print(num)
 

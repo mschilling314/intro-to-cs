@@ -12,6 +12,7 @@ print(f" This is the list after we change the value at index 1 to 7: {list_ints}
 list_ints.append(8)
 list_ints.insert(1, 12)
 print(f"After append: {list_ints}")
+print(*list_ints)
 
 # Iterating over a list using length
 x = len(list_ints)
