@@ -3,6 +3,7 @@ The goal of this homework is to ensure familiarity with variable and function de
 
 # Instructions for Setup and Execution
 1. Install pip and pipenv.  The former allows you to install packages,the second creates what is known as a virtual environment which allows you to download packages without risking impact to your computer.
+    - to do so, run `brew install pip` then `pip install pipenv` in your terminal, which you can open in VS Code using ctrl + ` (look for the latter right under the esc key)
 2. Run `pipenv run pytest path_to_tests/tests.py`
 3. You should see test failures, including an explanation of those failures.  In homework.py, follow Instructions for Implementation (below in this document) to implement the functions to pass the all of the tests.
 
